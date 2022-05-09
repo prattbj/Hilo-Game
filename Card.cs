@@ -2,14 +2,11 @@ namespace Hilo
 {
     class Card
     {
-        private int GiveMeANumber()
+        public int randomIntExcept( int min, int max, int except )
         {
-            var exclude = new HashSet<int>() { }; // put number to exclude here
-            var range = Enumerable.Range(1, 100).Where(i => !exclude.Contains(i));
-
-            var rand = new System.Random();
-            int index = rand.Next(0, 100 - exclude.Count);
-            return range.ElementAt(index);
+            int result = Random.Range( min + 1, max-1 );
+            if (result >= except) result += 1;
+            return result;
         }
     }
 }
