@@ -2,11 +2,18 @@ namespace Hilo
 {
     class Card
     {
-        public int randomIntExcept( int min, int max, int except )
+        Random random = new Random();
+
+        public int randomIntExcept( int except )
         {
-            int result = Random.Range( min + 1, max-1 );
+            int result = random.Next( 1, 12 );
             if (result >= except) result += 1;
             return result;
+        }
+
+        public int randomInt()
+        {
+            return random.Next(1, 13);
         }
     }
 }
