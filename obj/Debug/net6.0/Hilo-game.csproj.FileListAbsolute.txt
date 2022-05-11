@@ -13,3 +13,11 @@ C:\Users\joshj\Documents\cse210\Hilo-Game\obj\Debug\net6.0\refint\Hilo-game.dll
 C:\Users\joshj\Documents\cse210\Hilo-Game\obj\Debug\net6.0\Hilo-game.pdb
 C:\Users\joshj\Documents\cse210\Hilo-Game\obj\Debug\net6.0\Hilo-game.genruntimeconfig.cache
 C:\Users\joshj\Documents\cse210\Hilo-Game\obj\Debug\net6.0\ref\Hilo-game.dll
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.csproj.AssemblyReference.cache
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.AssemblyInfoInputs.cache
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.AssemblyInfo.cs
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.csproj.CoreCompileInputs.cache
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.dll
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\refint\Hilo-game.dll
+C:\Users\jacob\OneDrive\Desktop\CSE210\Projects\W04_Hilo\Hilo-Game\Hilo-Game\obj\Debug\net6.0\Hilo-game.pdb

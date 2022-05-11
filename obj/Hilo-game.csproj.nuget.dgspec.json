@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshj\\Documents\\cse210\\Hilo-Game\\Hilo-game.csproj": {}
+    "C:\\Users\\jacob\\OneDrive\\Desktop\\CSE210\\Projects\\W04_Hilo\\Hilo-Game\\Hilo-Game\\Hilo-game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshj\\Documents\\cse210\\Hilo-Game\\Hilo-game.csproj": {
+    "C:\\Users\\jacob\\OneDrive\\Desktop\\CSE210\\Projects\\W04_Hilo\\Hilo-Game\\Hilo-Game\\Hilo-game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshj\\Documents\\cse210\\Hilo-Game\\Hilo-game.csproj",
+        "projectUniqueName": "C:\\Users\\jacob\\OneDrive\\Desktop\\CSE210\\Projects\\W04_Hilo\\Hilo-Game\\Hilo-Game\\Hilo-game.csproj",
         "projectName": "Hilo-game",
-        "projectPath": "C:\\Users\\joshj\\Documents\\cse210\\Hilo-Game\\Hilo-game.csproj",
-        "packagesPath": "C:\\Users\\joshj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshj\\Documents\\cse210\\Hilo-Game\\obj\\",
+        "projectPath": "C:\\Users\\jacob\\OneDrive\\Desktop\\CSE210\\Projects\\W04_Hilo\\Hilo-Game\\Hilo-Game\\Hilo-game.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\OneDrive\\Desktop\\CSE210\\Projects\\W04_Hilo\\Hilo-Game\\Hilo-Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joshj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
