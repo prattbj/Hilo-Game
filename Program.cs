@@ -5,14 +5,17 @@
         static void Main(string[] args)
         {
             Player player = new Player(300);  
-            getInput();                   
+            gameLoop();                   
         }
 
         private static void getInput()
         {
             Card card = new Card();
             int drawnCard = card.randomInt();
-            Console.WriteLine("The card is:", card);
+            Console.WriteLine("The card is: ", card);
+            Console.Write("Higher or lower? [h/l]: ");
+            string entry = Console.ReadLine();
+            int entryValue = int.Parse(entry);
         }
 
         private static void doOutput()
