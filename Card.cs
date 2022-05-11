@@ -4,11 +4,11 @@ namespace Hilo
     {
         Random random = new Random();
 
-        public int randomIntExcept( int except )
+        public bool isCorrect( int except, bool high )
         {
             int result = random.Next( 1, 12 );
             if (result >= except) result += 1;
-            return result;
+            return ((result > except) == high);
         }
 
         public int randomInt()
