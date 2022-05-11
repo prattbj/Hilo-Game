@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hilo_game
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\joshj\Documents\cse210\Hilo-Game\
+=======
+build_property.ProjectDir = c:\Users\benny\cse210\Hilo-Game\
+>>>>>>> 9be4e2e2462decc7a8eaf68e927c30c5006f5bf3
