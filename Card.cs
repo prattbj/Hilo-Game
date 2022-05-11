@@ -8,6 +8,7 @@ namespace Hilo
         {
             int result = random.Next( 1, 12 );
             if (result >= except) result += 1;
+            Console.WriteLine($"Next card was: {result}");
             return ((result > except) == high);
         }
 
