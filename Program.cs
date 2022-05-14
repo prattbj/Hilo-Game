@@ -1,4 +1,9 @@
-﻿namespace Hilo 
+﻿/* Made by:
+    Benjamin Pratt
+    Jake Edwards
+    Joshua Johnson
+*/
+namespace Hilo 
 {
     class Program
     {
