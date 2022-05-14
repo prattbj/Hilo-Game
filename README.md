@@ -1,13 +1,21 @@
 # Hilo Game
- 
-class Player :
+Ben Pratt, Josh Johnson, Jake Edwards
 
-    Responsibilities: Narrate what is happening
+class Program: 
 
-    Attributes: Score integer
+    Responsibilities: Run game loop, handle input/output
+
+    Attributes: None
+
+class Player:
+
+    Responsibilities: Calculate score each turn
+
+    Attributes: Score (integer)
 
 class Card:
 
-    Responsibilities: Generate new non-duplicate card #s
+    Responsibilities: Return new card
 
-    Attributes: Value integer
+    Attributes: Exception (integer)
+
