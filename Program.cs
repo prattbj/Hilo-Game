@@ -51,6 +51,14 @@ namespace Hilo
                 return false;
             }
         }
+        
+        // Checks if the guess is correct
+        private static bool isCorrect(int nextCard, int cardNum, bool high)
+        {
+            Console.WriteLine($"Next card was: {nextCard}");
+            return ((nextCard > cardNum) == high); // voodoo magic?
+        }
+
         // Main loop of the game
         public static void gameLoop()
         {
@@ -59,19 +67,23 @@ namespace Hilo
             // Initialize a new player and card
             Player player = new Player(300);
             Card card = new Card();
+            // Draw the first card, store the result in cardNum
+            int cardNum = drawCard(card);
 
             while (isPlaying) 
             {
-                // Draw a new card, store the result in cardNum
-                int cardNum = drawCard(card);
+                
                 // Display the card that has been draw
                 Console.WriteLine($"\nThe card is: {cardNum}");
 
                 // Get the input from the user, higher or lower (represented as true or false)
                 bool guess = getInput();
 
+                // Get the card to guess against
+                int nextCard = card.randExcept(cardNum);
+                
                 // If the user guesses correctly, increment their score, otherwise, decrement their score
-                if (card.isCorrect(cardNum, guess)) {
+                if (isCorrect(nextCard, cardNum, guess)) {
                     player.increaseScore();
                 } else {
                     player.decreaseScore();
@@ -85,6 +97,8 @@ namespace Hilo
                 } else {
                     isPlaying = playAgain();
                 }
+                // Replace the current card with the next card
+                cardNum = nextCard;
             }
             // Once the game is over, tell the user good game
             Console.WriteLine("Good game!");
