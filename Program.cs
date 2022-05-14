@@ -1,7 +1,8 @@
-﻿/* Made by:
-    Benjamin Pratt
-    Jake Edwards
-    Joshua Johnson
+﻿/* 
+    Made by:
+        Benjamin Pratt
+        Jake Edwards
+        Joshua Johnson
 */
 namespace Hilo 
 {
